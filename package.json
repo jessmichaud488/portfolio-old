@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of full stack projects",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessmichaud488/portfolio.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Thinkful",
+    "Javascript",
+    "Node.js",
+    "Framework",
+    "API"
+  ],
+  "author": "Jessica Michaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessmichaud488/portfolio/issues"
+  },
+  "homepage": "https://github.com/jessmichaud488/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
