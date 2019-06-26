@@ -29,11 +29,11 @@ p {
   font-size: 18px;
 }
 
-#live-link {
+.live-link {
   color: rgb(21, 248, 248);
 }
 
-#repo-link {
+.repo-link {
   color: rgb(21, 248, 248);
 }
 
