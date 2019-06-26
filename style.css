@@ -17,11 +17,11 @@ body {
 }
 
 .portfolio-color {
-  color: rgb(255, 255, 0);
+  color: rgba(255, 255, 0);
 }
 
 h2 {
-  color: rgb(255, 255, 0);
+  color: rgba(255, 255, 0);
   text-align: center;
 }
 
@@ -30,11 +30,11 @@ p {
 }
 
 .live-link {
-  color: rgb(21, 248, 248);
+  color: rgba(21, 248, 248);
 }
 
 .repo-link {
-  color: rgb(21, 248, 248);
+  color: rgba(21, 248, 248);
 }
 
 #home-link{
@@ -48,7 +48,7 @@ p {
 #portfolio-link {
   background-color:black; 
   color: white;
-  border: 2px solid rgb(21, 248, 248);
+  border: 2px solid rgba(21, 248, 248);
   padding: 8px;
   border-radius: 12px;
 }
@@ -64,7 +64,7 @@ p {
 #github-link {
   background-color: black; 
   color: white;
-  border: 2px solid rgb(255, 255, 0);
+  border: 2px solid rgba(255, 255, 0);
   padding: 8px;
   border-radius: 12px;
 }
