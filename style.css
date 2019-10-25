@@ -199,6 +199,18 @@ margin-bottom: 40px;
   margin-bottom: 100px;
 }
 
+#footer-email:hover {
+  background: url("Images/EmailBlue.png") no-repeat;
+}
+
+#footer-linkedin:hover {
+  background: url("Images/LinkedInBlue.png") no-repeat;
+}
+
+#footer-github:hover {
+  background: url("Images/GithubBlue.png") no-repeat;
+}
+
 @media only screen and (max-width: 600px) {
   .image {
     display: block;
