@@ -12,8 +12,11 @@ body {
 }
 
 .container-fluid {
+  display:inline-block;
   background-color: black;
   color: white;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .portfolio-color {
@@ -30,11 +33,21 @@ p {
 }
 
 .live-link {
-  color: rgba(21, 248, 248);
+  font-size: 22px;
+}
+
+.live-link:hover {
+  color:rgba(21, 248, 248);
+  text-decoration: none;
 }
 
 .repo-link {
-  color: rgba(21, 248, 248);
+  font-size: 22px;
+}
+
+.repo-link:hover {
+  color:rgba(21, 248, 248);
+  text-decoration: none;
 }
 
 #home-link{
@@ -71,7 +84,7 @@ p {
 
 footer {
   width: 100%; 
-  background-color: white; 
+  background-color: black; 
   text-align: center; 
   margin-top: 100px;
   }
@@ -79,7 +92,7 @@ footer {
 .contact-info {
   width: 970px; 
   height: 70px; 
-  color: black;
+  color: white;
   margin: 0 auto;
   }
 
@@ -100,6 +113,10 @@ footer div ul li {
   font-size: 40px;
   margin-top: 10px;
   color: black;
+}
+
+.name:hover{ 
+  color: rgba(21, 248, 248);
 }
 
 .navbar > .content {
@@ -160,6 +177,11 @@ margin-bottom: 40px;
   margin-right: auto;
   height: 550px;
   width: 900px;
+}
+
+#dailyUI:hover {
+  color: rgba(21, 248, 248);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
