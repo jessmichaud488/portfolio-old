@@ -242,3 +242,8 @@ margin-bottom: 40px;
     padding: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #home {
+    text-align: center;
+  }
