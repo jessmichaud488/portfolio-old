@@ -65,17 +65,14 @@ p {
   background-color: black; 
   color:white;
   border: 2px solid white;
-  padding: 8px;
   text-decoration: none;
   border-radius: 12px;
-  height: 500px;
 }
 
 #portfolio-link {
   background-color:black; 
   color: white;
   border: 2px solid rgba(21, 248, 248);
-  padding: 8px;
   text-decoration: none;
   border-radius: 12px;
 }
@@ -84,7 +81,6 @@ p {
   background-color: black; 
   color: white;
   border: 2px solid white;
-  padding: 8px;
   text-decoration: none;
   border-radius: 12px;
 }
@@ -93,7 +89,6 @@ p {
   background-color: black; 
   color: white;
   border: 2px solid rgba(255, 255, 0);
-  padding: 8px;
   text-decoration: none;
   border-radius: 12px;
 }
@@ -148,7 +143,7 @@ footer div ul li {
   height: 70px;
 }*/
 
-.navbar .links {
+.links {
   float: right;
   margin-right: 20px;
   list-style-type: none;
@@ -157,7 +152,7 @@ footer div ul li {
   font-size: 16px;
 }
 
-.navbar .links li {
+.links li {
   margin-top: 10px;
   margin-right: 20px;
   margin-bottom: 5px;
@@ -277,21 +272,15 @@ margin-bottom: 40px;
 
   .name {
     font-size: 28px;
+    margin-left: 75px;
   }
 
-  .navbar .links {
-    display: inline-block;
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: black;
-    font-size: 16px;
-  }
-  
-  .navbar .links li {
-    float: right;
-  }
-
-  .links li a {
-    height: 5vh;
-    width: 10vw;
+    font-size: 12px;
   }
 }
 
