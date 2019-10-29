@@ -148,13 +148,22 @@ nav div ul li:hover {
   cursor: pointer;
 }
 
-a {
+.name a{
   color: black;
   text-decoration: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(21, 248, 248);
+}
+
 a:visited {
-  color: inherit;
+  color: rgba(21, 248, 248);
 }
 
 #portfolio {
@@ -218,6 +227,15 @@ margin-bottom: 40px;
 
 #daily-email {
   margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 311px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 9990;
+  }
 }
 
 @media only screen and (max-width: 600px) {
