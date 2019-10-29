@@ -6,12 +6,9 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  /*margin-top: 0px;
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;*/
   text-align: center;
   background-color: black;
+  margin: auto;
 }
 
 .navbar {
@@ -36,10 +33,7 @@ body {
 
 h2 {
   color: rgba(255, 255, 0);
-}
-
-p {
-  font-size: 18px;
+  font-size: 36px;
 }
 
 .live-link {
@@ -138,7 +132,7 @@ footer div ul li {
 .name {
   display: flex;
   flex-direction: column;
-  font-size: 48px;
+  font-size: 36px;
   float: left;
   margin-top: 15px;
   margin-left: 20px;
@@ -185,11 +179,23 @@ width: 970px;
 margin-bottom: 100px;*/
 }
 
+#portfolio h3 {
+  font-size: 26px;
+}
+
+#portfolio p {
+  font-size: 20px;
+}
+
 #home {
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
-  margin-bottom: 150px;
+  padding-top: 250px;
+  margin-bottom: 300px;
+}
+
+#home p {
+  font-size: 20px;
 }
 
 img {
@@ -198,12 +204,12 @@ margin: 0 20px;
 margin-bottom: 40px;
 }
 
-.image{
+.image {
   /*display: block;
   margin-left: auto;
   margin-right: auto;*/
-  height: 650px;
-  width: 100px;
+  height: 300px;
+  width: 650px;
 }
 
 #dailyUI {
@@ -366,6 +372,35 @@ margin-bottom: 40px;
     margin-right: 5px;
     font-size: 32px;
   }
+
+  #home-link{
+    padding: 4px;
+    font-size: 24px;
+  }
+  
+  #portfolio-link {
+    padding: 4px;
+    font-size: 24px;
+  }
+  
+  #linkedin-link {
+    padding: 4px;
+    font-size: 24px;
+  }
+  
+  #github-link {
+    padding: 4px;
+    font-size: 24px;
+  }
+
+  .image {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 450px;
+  }
 }
 
 
@@ -382,28 +417,23 @@ margin-bottom: 40px;
   }
 
   #home-link{
-    padding: 4px;
+    padding: 6px;
     font-size: 28px;
   }
   
   #portfolio-link {
-    padding: 4px;
+    padding: 6px;
     font-size: 28px;
   }
   
   #linkedin-link {
-    padding: 4px;
+    padding: 6px;
     font-size: 28px;
   }
   
   #github-link {
-    padding: 4px;
+    padding: 6px;
     font-size: 28px;
-  }
-}
-/*@media only screen and (max-width: 600px) {
-  .container {
-    text-align: center;
   }
 
   .image {
@@ -412,14 +442,6 @@ margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     height: 250px;
-    width: 250px;
+    width: 500px;
   }
-
-  img {
-    margin: 0 auto;
-    }
-
-  ul.links {
-    padding: 0;
-  }
-}*/
+}
