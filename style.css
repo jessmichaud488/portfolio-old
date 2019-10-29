@@ -70,7 +70,8 @@ p {
   border: 2px solid white;
   text-decoration: none;
   border-radius: 12px;
-  padding: 8px;
+  padding: 12px;
+  font-size: 18px;
 }
 
 #portfolio-link {
@@ -79,7 +80,8 @@ p {
   border: 2px solid rgba(21, 248, 248);
   text-decoration: none;
   border-radius: 12px;
-  padding: 8px;
+  padding: 12px;
+  font-size: 18px;
 }
 
 #linkedin-link {
@@ -88,7 +90,8 @@ p {
   border: 2px solid white;
   text-decoration: none;
   border-radius: 12px;
-  padding: 8px;
+  padding: 12px;
+  font-size: 18px;
 }
 
 #github-link {
@@ -97,7 +100,8 @@ p {
   border: 2px solid rgba(255, 255, 0);
   text-decoration: none;
   border-radius: 12px;
-  padding: 8px;
+  padding: 12px;
+  font-size: 18px;
 }
 
 footer {
@@ -155,7 +159,6 @@ footer div ul li {
   list-style-type: none;
   font-family: 'Oswald', sans-serif;
   color: black;
-  font-size: 16px;
 }
 
 .links li {
@@ -275,7 +278,7 @@ margin-bottom: 40px;
 
   .name {
     font-size: 28px;
-    margin-left: 78px;
+    margin-left: 80px;
   }
 
   .links {
@@ -283,24 +286,27 @@ margin-bottom: 40px;
     flex-direction: row;
     justify-content: space-between;
     color: black;
-    font-size: 12px;
-    margin-right: 25px;
+    margin-right: 2px;
   }
 
   #home-link{
     padding: 4px;
+    font-size: 16px;
   }
   
   #portfolio-link {
     padding: 4px;
+    font-size: 16px;
   }
   
   #linkedin-link {
     padding: 4px;
+    font-size: 16px;
   }
   
   #github-link {
     padding: 4px;
+    font-size: 16px;
   }
 }
 
@@ -311,7 +317,7 @@ margin-bottom: 40px;
   }
 
   .links {
-    margin-right: 45px;
+    margin-right: 30px;
   }
 }
 
@@ -321,17 +327,33 @@ margin-bottom: 40px;
   }
 
   .links {
-    margin-right: 55px;
+    margin-right: 35px;
   }
 }
 
 @media screen and (min-width: 411px) {
   .name {
-    margin-left: 115px;
+    margin-top: 30px;
+    margin-left: 85px;
+    font-size: 40px;
   }
 
   .links {
-    margin-right: 75px;
+    margin-right: 55px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .name {
+    margin-top: 40px;
+    margin-left: 85px;
+    font-size: 40px;
+  }
+
+  .links {
+    margin-right: 55px;
+    font-size: 22px;
   }
 }
 
@@ -342,9 +364,43 @@ margin-bottom: 40px;
 
   .links {
     margin-right: 5px;
+    font-size: 32px;
   }
 }
 
+
+@media screen and (min-width: 1024px) {
+  .name {
+    margin-left: 25px;
+    margin-bottom: 45px;
+    font-size: 72px;
+  }
+
+  .links {
+    margin-top: 55px;
+    margin-right: 10px;
+  }
+
+  #home-link{
+    padding: 4px;
+    font-size: 28px;
+  }
+  
+  #portfolio-link {
+    padding: 4px;
+    font-size: 28px;
+  }
+  
+  #linkedin-link {
+    padding: 4px;
+    font-size: 28px;
+  }
+  
+  #github-link {
+    padding: 4px;
+    font-size: 28px;
+  }
+}
 /*@media only screen and (max-width: 600px) {
   .container {
     text-align: center;
