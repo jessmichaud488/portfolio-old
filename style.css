@@ -229,7 +229,7 @@ margin-bottom: 40px;
   margin-bottom: 150px;
 }
 
-@media only screen and (max-width: 311px) {
+@media only screen and (max-width: 320px) {
   .navbar {
     position: fixed;
     width: 100%;
