@@ -1,6 +1,9 @@
+html {
+  font-family: 'Oswald', sans-serif;
+}
+
 body { 
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
   display: flex;
   flex-direction: column;
   /*margin-top: 0px;
@@ -67,6 +70,7 @@ p {
   border: 2px solid white;
   text-decoration: none;
   border-radius: 12px;
+  padding: 8px;
 }
 
 #portfolio-link {
@@ -75,6 +79,7 @@ p {
   border: 2px solid rgba(21, 248, 248);
   text-decoration: none;
   border-radius: 12px;
+  padding: 8px;
 }
 
 #linkedin-link {
@@ -83,6 +88,7 @@ p {
   border: 2px solid white;
   text-decoration: none;
   border-radius: 12px;
+  padding: 8px;
 }
 
 #github-link {
@@ -91,6 +97,7 @@ p {
   border: 2px solid rgba(255, 255, 0);
   text-decoration: none;
   border-radius: 12px;
+  padding: 8px;
 }
 
 footer {
@@ -107,7 +114,7 @@ footer {
   /*width: 970px;*/
   height: 70px; 
   color: white;
-  /*margin: 0 auto;*//
+  /*margin: 0 auto;*/
   }
 
 footer div ul li {
@@ -145,7 +152,6 @@ footer div ul li {
 
 .links {
   float: right;
-  margin-right: 20px;
   list-style-type: none;
   font-family: 'Oswald', sans-serif;
   color: black;
@@ -153,13 +159,10 @@ footer div ul li {
 }
 
 .links li {
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-bottom: 5px;
   display: inline-block;
-  margin-left: 30px;
   font-family: 'Oswald', sans-serif;
   color: black;
+  padding: 12px;
 }
 
 nav div ul li:hover {
@@ -272,7 +275,7 @@ margin-bottom: 40px;
 
   .name {
     font-size: 28px;
-    margin-left: 75px;
+    margin-left: 78px;
   }
 
   .links {
@@ -281,6 +284,64 @@ margin-bottom: 40px;
     justify-content: space-between;
     color: black;
     font-size: 12px;
+    margin-right: 25px;
+  }
+
+  #home-link{
+    padding: 4px;
+  }
+  
+  #portfolio-link {
+    padding: 4px;
+  }
+  
+  #linkedin-link {
+    padding: 4px;
+  }
+  
+  #github-link {
+    padding: 4px;
+  }
+}
+
+
+@media screen and (min-width: 360px) {
+  .name {
+    margin-left: 95px;
+  }
+
+  .links {
+    margin-right: 45px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .name {
+    margin-left: 105px;
+  }
+
+  .links {
+    margin-right: 55px;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .name {
+    margin-left: 115px;
+  }
+
+  .links {
+    margin-right: 75px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    margin-left: 25px;
+  }
+
+  .links {
+    margin-right: 5px;
   }
 }
 
