@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/jessmichaud488/portfolio#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
